@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "simplified": {
+      "type": "http",
+      "url": "https://apikit.simplified.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Codex-specific metadata for the simplified-social skill.
+
+interface:
+  display_name: "Simplified Social"
+  short_description: "Draft, schedule, and analyze social posts across 10 platforms with Simplified."
+  icon_small: "../../assets/simplified-treadmark-logo.png"
+  icon_large: "../../assets/simplified-logo.png"
+  brand_color: "#FFAD00"   # Simplified amber (wordmark gray: #43464E)
+  default_prompt: "Draft a LinkedIn post about our new feature"
+
+dependencies:
+  tools:
+    - type: mcp
+      value: simplified
+      description: "Simplified hosted MCP connector (image + social tools)."
+      transport: http
+      url: "https://apikit.simplified.com/mcp"

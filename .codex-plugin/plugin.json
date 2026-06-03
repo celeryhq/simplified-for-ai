@@ -1,0 +1,24 @@
+{
+  "name": "simplified",
+  "version": "0.1.0+codex.20260602121500",
+  "description": "Simplified Codex plugin for image generation and social publishing.",
+  "author": {
+    "name": "Tldr Technologies Inc."
+  },
+  "skills": "skills",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Simplified Codex Plugin",
+    "shortDescription": "Generate images and manage social media with Simplified.",
+    "longDescription": "A Codex packaging of Simplified's image generation and social publishing skills, backed by the hosted Simplified MCP connector.",
+    "developerName": "Simplified",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "composerIcon": "./assets/simplified-treadmark-logo.png",
+    "logo": "./assets/simplified-logo.png",
+    "defaultPrompt": "Generate images and manage social media with Simplified."
+  }
+}

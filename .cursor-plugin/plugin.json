@@ -1,0 +1,21 @@
+{
+  "name": "simplified",
+  "description": "Simplified plugin for Cursor — generate AI images and manage social media (post, schedule, analyze) across 10 platforms, via skills + a hosted MCP connector.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Simplified"
+  },
+  "homepage": "https://simplified.com",
+  "repository": "https://github.com/celeryhq/simplified-for-ai",
+  "keywords": [
+    "image-generation",
+    "social-media",
+    "content-creation",
+    "scheduling",
+    "analytics",
+    "simplified"
+  ],
+  "skills": "skills",
+  "mcpServers": ".mcp.json"
+}
