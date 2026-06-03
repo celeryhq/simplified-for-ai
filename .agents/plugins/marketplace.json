@@ -1,0 +1,20 @@
+{
+  "name": "simplified-for-ai",
+  "interface": {
+    "displayName": "Simplified"
+  },
+  "plugins": [
+    {
+      "name": "simplified",
+      "source": {
+        "source": "local",
+        "path": "./simplified"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
