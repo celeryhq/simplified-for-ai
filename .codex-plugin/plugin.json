@@ -33,7 +33,7 @@
     "privacyPolicyURL": "https://simplified.com/privacy",
     "termsOfServiceURL": "https://simplified.com/terms",
     "brandColor": "#7C3AED",
-    "composerIcon": "./assets/simplified-treadmark-logo.png",
+    "composerIcon": "./assets/simplified-icon-256.png",
     "logo": "./assets/simplified-logo.png",
     "defaultPrompt": [
       "Generate a social image with Simplified.",
