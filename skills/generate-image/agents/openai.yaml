@@ -5,8 +5,8 @@
 interface:
   display_name: "Generate Image"
   short_description: "Generate AI images from a text prompt with Simplified."
-  icon_small: "../../assets/simplified-treadmark-logo.png"
-  icon_large: "../../assets/simplified-logo.png"
+  icon_small: "assets/simplified-treadmark-logo.png"
+  icon_large: "assets/simplified-logo.png"
   brand_color: "#FFAD00"   # Simplified amber (wordmark gray: #43464E)
   default_prompt: "Generate a product image of a coffee cup on a white background"
 

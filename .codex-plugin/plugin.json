@@ -1,0 +1,44 @@
+{
+  "name": "simplified-for-ai",
+  "version": "1.0.0+codex.20260615170129",
+  "description": "Generate AI images and manage social media with Simplified from Codex.",
+  "author": {
+    "name": "Simplified",
+    "url": "https://simplified.com"
+  },
+  "homepage": "https://simplified.com",
+  "repository": "https://github.com/celeryhq/simplified-for-ai",
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "social-media",
+    "content-creation",
+    "scheduling",
+    "analytics",
+    "simplified"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Simplified for AI",
+    "shortDescription": "Generate images and manage social posts with Simplified.",
+    "longDescription": "Simplified for AI brings image generation and social media workflows into Codex through Agent Skills and the hosted Simplified MCP connector. Generate reusable image assets, draft social posts, schedule content, queue posts, and review analytics across connected channels.",
+    "developerName": "Simplified",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://simplified.com",
+    "privacyPolicyURL": "https://simplified.com/privacy",
+    "termsOfServiceURL": "https://simplified.com/terms",
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/simplified-treadmark-logo.png",
+    "logo": "./assets/simplified-logo.png",
+    "defaultPrompt": [
+      "Generate a social image with Simplified.",
+      "Draft a post for my connected channels.",
+      "Review social analytics in Simplified."
+    ]
+  }
+}

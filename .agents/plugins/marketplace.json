@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "simplified",
+      "name": "simplified-for-ai",
       "source": {
         "source": "local",
-        "path": "./simplified"
+        "path": "."
       },
       "policy": {
         "installation": "AVAILABLE",

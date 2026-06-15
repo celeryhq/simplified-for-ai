@@ -22,33 +22,21 @@ The two compose: `generate-image` returns an **asset id** → pass it into
 /plugin install simplified@simplified-for-ai
 ```
 
-**Codex**
-```
-codex plugin marketplace add celeryhq/simplified-for-ai
-codex plugin add simplified@simplified-for-ai
-```
-
-**Cursor** — Settings → Plugins → add from this repo.
-
 **ChatGPT (Apps)** — enable the Simplified app (hosted MCP connector); no install needed.
 
-All clients read the same plugin and the same [`.mcp.json`](simplified/.mcp.json) connector.
+Codex and Cursor support is on the roadmap; see [Status](#status).
 
 ## Layout
 
 ```
-simplified-for-ai/                      ← marketplace root
-├── .claude-plugin/marketplace.json     → ./simplified   (Claude Code)
-├── .agents/plugins/marketplace.json    → ./simplified   (Codex)
-├── README.md, LICENSE
-└── simplified/                         ← the plugin
-    ├── .claude-plugin/plugin.json
-    ├── .codex-plugin/plugin.json
-    ├── .cursor-plugin/plugin.json
-    ├── .mcp.json                       ← hosted MCP connector (OAuth)
-    ├── AGENTS.md, SKILL_TREE.md
-    ├── skills/{generate-image,simplified-social}/
-    └── assets/
+simplified-for-ai/
+├── .claude-plugin/
+│   ├── marketplace.json            ← Claude Code marketplace catalog
+│   └── plugin.json                 ← Claude Code plugin manifest
+├── .mcp.json                       ← hosted MCP connector (OAuth)
+├── AGENTS.md, SKILL_TREE.md
+├── skills/{generate-image,simplified-social}/
+├── assets/
 ├── evals/                          ← contributor QA (not installed)
 ├── README.md
 └── LICENSE
@@ -71,7 +59,9 @@ refresh automatically on expiry.
 ## Status
 
 - [x] Hosted connector live: `apikit.simplified.com/mcp` (OAuth + token refresh).
-- [x] Plugin manifests for Claude Code + Codex + Cursor.
+- [x] Claude Code install verified end-to-end (marketplace + plugin + MCP).
 - [x] `action` semantics verified against backend (`add_to_queue` = publish ASAP; `message` ≤ 3000).
+- [ ] Codex install — needs separate marketplace/plugin config.
+- [ ] Cursor install.
 - [ ] Submit Simplified ChatGPT App (pending business verification).
 - [ ] Optional polish: add `outputSchema` to specs; tighten `generateImage` input schema.
