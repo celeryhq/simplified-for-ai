@@ -22,6 +22,12 @@ The two compose: `generate-image` returns an **asset id** → pass it into
 /plugin install simplified@simplified-for-ai
 ```
 
+**Any agent (via [skills.sh](https://skills.sh))**
+```
+npx skills add celeryhq/simplified-ai
+```
+Add a single skill with `--skill generate-image` or `--skill simplified-social`.
+
 **ChatGPT (Apps)** — enable the Simplified app (hosted MCP connector); no install needed.
 
 Codex and Cursor support is on the roadmap; see [Status](#status).
